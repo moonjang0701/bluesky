@@ -1,0 +1,12 @@
+# 18L ENGOT Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT BURIM,35.169472,128.940594
+00:00:00>DEFWPT BAHDA,34.892889,128.951611
+00:00:00>DEFWPT ENGOT,34.809578,128.497689
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. BURIM         35.169472, 128.940594,    --- ft, 230 kts  # DER
+# 2. BAHDA         34.892889, 128.951611,    --- ft, --- kts  # CG 370 ft/NM to 5 000 ft
+# 3. ENGOT         34.809578, 128.497689,   5000 ft, --- kts

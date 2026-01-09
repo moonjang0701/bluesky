@@ -1,0 +1,10 @@
+# RNAV GAYHA 3 #U2013 KALOD Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT KALOD,35.503361,128.774028
+00:00:00>DEFWPT GAYHA,35.222889,128.631778
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. KALOD         35.503361, 128.774028,    --- ft, --- kts
+# 2. GAYHA         35.222889, 128.631778,   6000 ft, --- kts  # IAF

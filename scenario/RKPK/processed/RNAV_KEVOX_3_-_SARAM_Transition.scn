@@ -1,0 +1,10 @@
+# RNAV KEVOX 3 #U2013 SARAM Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT SARAM,35.12675,128.529639
+00:00:00>DEFWPT KEVOX,35.014361,128.729778
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. SARAM         35.126750, 128.529639,    --- ft, --- kts
+# 2. KEVOX         35.014361, 128.729778,   6000 ft, --- kts  # IAF

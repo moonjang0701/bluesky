@@ -1,0 +1,12 @@
+# LOC Z RWY 36L #U2013 via KEVOX to FAF 
+
+# Waypoint Definitions
+00:00:00>DEFWPT KEVOX,35.014361,128.729778
+00:00:00>DEFWPT PK711,34.964417,128.842306
+00:00:00>DEFWPT AKEVI,34.974722,128.963333
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. KEVOX         35.014361, 128.729778,   6000 ft, 230 kts  # IAF
+# 2. PK711         34.964417, 128.842306,   6000 ft, 230 kts  # SDF
+# 3. AKEVI         34.974722, 128.963333,   3300 ft, 230 kts  # IF

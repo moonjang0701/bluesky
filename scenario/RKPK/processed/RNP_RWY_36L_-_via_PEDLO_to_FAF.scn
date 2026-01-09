@@ -1,0 +1,14 @@
+# RNP RWY 36L #U2013 via PEDLO to FAF 
+
+# Waypoint Definitions
+00:00:00>DEFWPT PEDLO,34.98975,129.137583
+00:00:00>DEFWPT AKEVI,34.974722,128.963333
+00:00:00>DEFWPT OLMOG,35.105861,128.946472
+00:00:00>DEFWPT PK722,35.148583,128.940972
+
+# Route Waypoints
+# 4 waypoints in this procedure
+# 1. PEDLO         34.989750, 129.137583,   6000 ft, 230 kts  # IAF
+# 2. AKEVI         34.974722, 128.963333,   3300 ft, 230 kts  # IF
+# 3. OLMOG         35.105861, 128.946472,   2100 ft, --- kts  # FAF
+# 4. PK722         35.148583, 128.940972,   1200 ft, --- kts  # SDF

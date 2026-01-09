@@ -1,0 +1,10 @@
+# RNAV PEDLO 1 #U2013 APELA Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT APELA,34.723056,129.233333
+00:00:00>DEFWPT PEDLO,34.98975,129.137583
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. APELA         34.723056, 129.233333,    --- ft, --- kts
+# 2. PEDLO         34.989750, 129.137583,   7000 ft, --- kts  # IAF

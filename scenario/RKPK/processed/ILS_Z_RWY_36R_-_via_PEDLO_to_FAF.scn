@@ -1,0 +1,10 @@
+# ILS Z RWY 36R #U2013 via PEDLO to FAF 
+
+# Waypoint Definitions
+00:00:00>DEFWPT PEDLO,34.98975,129.137583
+00:00:00>DEFWPT BOSPI,34.975333,128.965583
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. PEDLO         34.989750, 129.137583,   6000 ft, 230 kts  # IAF
+# 2. BOSPI         34.975333, 128.965583,   3300 ft, 230 kts  # IF

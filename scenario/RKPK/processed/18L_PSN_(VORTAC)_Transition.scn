@@ -1,0 +1,10 @@
+# 18L PSN (VORTAC) Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT BURIM,35.169472,128.940594
+00:00:00>DEFWPT PSN,35.122639,128.999583
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. BURIM         35.169472, 128.940594,    --- ft, 230 kts  # DER
+# 2. PSN           35.122639, 128.999583,    --- ft, --- kts  # VORTAC

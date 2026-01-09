@@ -1,0 +1,12 @@
+# 18R BESNA Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT BURIM,35.165192,128.938831
+00:00:00>DEFWPT BAHDA,34.892889,128.951611
+00:00:00>DEFWPT BESNA,34.621667,129.130833
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. BURIM         35.165192, 128.938831,    --- ft, 230 kts  # DER
+# 2. BAHDA         34.892889, 128.951611,    --- ft, --- kts
+# 3. BESNA         34.621667, 129.130833,   5000 ft, --- kts

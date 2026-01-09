@@ -1,0 +1,12 @@
+# RNAV GAYHA 3 #U2013 ANROD Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT ANROD,34.632683,128.497703
+00:00:00>DEFWPT SARAM,35.12675,128.529639
+00:00:00>DEFWPT GAYHA,35.222889,128.631778
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. ANROD         34.632683, 128.497703,    --- ft, --- kts
+# 2. SARAM         35.126750, 128.529639,    --- ft, --- kts
+# 3. GAYHA         35.222889, 128.631778,   6000 ft, --- kts  # IAF

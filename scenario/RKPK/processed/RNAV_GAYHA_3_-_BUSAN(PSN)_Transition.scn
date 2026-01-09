@@ -1,0 +1,12 @@
+# RNAV GAYHA 3 #U2013 BUSAN(PSN) Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT BUSAN(PSN),35.122639,128.999583
+00:00:00>DEFWPT ARECO,35.239472,128.783083
+00:00:00>DEFWPT GAYHA,35.222889,128.631778
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. BUSAN(PSN)    35.122639, 128.999583,    --- ft, --- kts
+# 2. ARECO         35.239472, 128.783083,    --- ft, --- kts
+# 3. GAYHA         35.222889, 128.631778,   6000 ft, --- kts  # IAF

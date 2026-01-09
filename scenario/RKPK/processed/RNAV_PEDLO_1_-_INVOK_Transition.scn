@@ -1,0 +1,10 @@
+# RNAV PEDLO 1 #U2013 INVOK Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT INVOK,34.788611,129.323056
+00:00:00>DEFWPT PEDLO,34.98975,129.137583
+
+# Route Waypoints
+# 2 waypoints in this procedure
+# 1. INVOK         34.788611, 129.323056,    --- ft, --- kts
+# 2. PEDLO         34.989750, 129.137583,   7000 ft, --- kts  # IAF

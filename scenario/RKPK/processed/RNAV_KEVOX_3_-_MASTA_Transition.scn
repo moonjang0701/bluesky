@@ -1,0 +1,12 @@
+# RNAV KEVOX 3 #U2013 MASTA Transition 
+
+# Waypoint Definitions
+00:00:00>DEFWPT MASTA,35.479722,128.561111
+00:00:00>DEFWPT OVTUS,35.111194,128.65
+00:00:00>DEFWPT KEVOX,35.014361,128.729778
+
+# Route Waypoints
+# 3 waypoints in this procedure
+# 1. MASTA         35.479722, 128.561111,    --- ft, --- kts
+# 2. OVTUS         35.111194, 128.650000,    --- ft, --- kts
+# 3. KEVOX         35.014361, 128.729778,   6000 ft, --- kts  # IAF
