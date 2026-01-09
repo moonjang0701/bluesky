@@ -1,8 +1,10 @@
 # RKPK (Gimhae International Airport) BlueSky Simulation
 
+**✨ NEW: Automatic Capacity Analysis Plugin** - Measures TMA throughput, peak occupancy, and separation violations automatically!
+
 ## Overview
 
-This repository contains BlueSky simulation scenarios for Gimhae International Airport (RKPK) Terminal Control Area (TMA) capacity analysis.
+This repository contains BlueSky simulation scenarios for Gimhae International Airport (RKPK) Terminal Control Area (TMA) capacity analysis with automated metrics collection.
 
 ## Quick Start (Windows)
 
@@ -43,7 +45,10 @@ D:\bluesky-master/
 │       ├── STAR/
 │       │   └── KEVOX3_KALOD_36L.scn  # STAR procedure
 │       └── Tests/
-│           └── capacity_test_20ph_NEW.scn  # Capacity test (5 aircraft)
+│           ├── capacity_test_20ph_NEW.scn       # Capacity test (5 aircraft)
+│           └── capacity_analysis_test.scn       # Auto-analysis test (10 aircraft)
+├── plugins/
+│   └── capacity_analysis.py              # Capacity metrics plugin
 ├── RKPK_RUN_D_DRIVE.bat            # Main launcher
 ├── INSTALL_BLUESKY_WINDOWS.bat     # BlueSky installer
 └── README.md                        # This file
@@ -61,6 +66,16 @@ D:\bluesky-master/
 - **Spacing**: 180 seconds (3 minutes)
 - **STAR**: KEVOX3 via KALOD transition
 - **Runway**: 36L
+
+### 3. **NEW: Capacity Analysis Test** (`capacity_analysis_test.scn`)
+- **Description**: Automated capacity metrics collection with 10 aircraft
+- **Spacing**: 180 seconds (20 aircraft/hour rate)
+- **Features**:
+  - Automatic throughput calculation (arrivals/hour)
+  - Peak TMA occupancy tracking
+  - Separation violation detection (5 NM horizontal / 1000 ft vertical)
+  - Auto-generated capacity report
+- **Usage**: After simulation ends, type `CAPA REPORT` to see results
 
 ## RKPK Airport Information
 
@@ -90,6 +105,39 @@ DTMULT 10      # Run at 10x speed
 TRAIL ON       # Show aircraft trails
 PAN RKPK       # Pan camera to Gimhae Airport
 ZOOM 40        # Set zoom level
+
+# Capacity Analysis Plugin Commands
+CAPA ON        # Enable capacity analysis
+CAPA REPORT    # Generate capacity metrics report
+CAPA RESET     # Reset analyzer (start fresh)
+CAPA OFF       # Disable capacity analysis
+```
+
+### Sample Capacity Report
+
+When you run `CAPA REPORT`, you'll see:
+
+```
+============================================================
+RKPK TMA CAPACITY ANALYSIS REPORT
+============================================================
+Simulation Time: 1800.0 seconds (0.50 hours)
+
+Throughput:
+  Total Arrivals: 10
+  Total Departures: 8
+  Arrival Rate: 20.0 aircraft/hour
+  Departure Rate: 16.0 aircraft/hour
+
+Occupancy:
+  Peak Occupancy: 4 aircraft
+  Current Occupancy: 2 aircraft
+
+Separation Violations:
+  Total Violations: 0
+
+✅ CAPACITY: System can handle 20 arrivals/hour
+============================================================
 ```
 
 ## File Format
