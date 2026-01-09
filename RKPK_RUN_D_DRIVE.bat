@@ -57,14 +57,12 @@ echo.
 REM List available scenarios
 echo [Step 3/5] Available test scenarios:
 echo.
-echo   [1] Simple Test (3 aircraft) - Quick verification
-echo   [2] Capacity Test 20/hour - Basic capacity
-echo   [3] Capacity Test 24/hour - Medium density
-echo   [4] Capacity Test 30/hour - High density
+echo   [1] RKPK Demo (3 aircraft) - Quick demo
+echo   [2] Capacity Test 20/hour (5 aircraft) - Basic capacity
 echo   [0] Cancel
 echo.
 
-set /p choice="Select scenario (0-4): "
+set /p choice="Select scenario (0-2): "
 
 if "%choice%"=="0" (
     echo Cancelled.
@@ -73,10 +71,8 @@ if "%choice%"=="0" (
 )
 
 REM Set scenario file
-if "%choice%"=="1" set "SCENARIO=scenario\RKPK\Tests\simple_test_EN.scn"
-if "%choice%"=="2" set "SCENARIO=scenario\RKPK\Tests\capacity_test_ARR_RWY36L_KEVOX3_KALOD_20ph_EN.scn"
-if "%choice%"=="3" set "SCENARIO=scenario\RKPK\Tests\capacity_test_ARR_RWY36L_KEVOX3_KALOD_24ph.scn"
-if "%choice%"=="4" set "SCENARIO=scenario\RKPK\Tests\capacity_test_ARR_RWY36L_KEVOX3_KALOD_30ph.scn"
+if "%choice%"=="1" set "SCENARIO=scenario\RKPK\RKPK_demo.scn"
+if "%choice%"=="2" set "SCENARIO=scenario\RKPK\Tests\capacity_test_20ph_NEW.scn"
 
 if not defined SCENARIO (
     echo Invalid selection!
