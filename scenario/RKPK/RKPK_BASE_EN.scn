@@ -1,0 +1,47 @@
+# ==============================================================================
+# Gimhae Airport (RKPK) Base Scenario
+# ==============================================================================
+
+# Simulation Settings
+00:00:00>NOISE OFF
+00:00:00>ASAS ON
+00:00:00>CDMETHOD STATEBASED
+00:00:00>DTLOOK 180
+00:00:00>DTNOLOOK 30
+
+# Separation Standards (Korea)
+00:00:00>ZONER 5   # 5 NM horizontal separation
+00:00:00>ZONEDH 1000  # 1000 ft vertical separation
+
+# Camera Settings
+00:00:00>PAN RKPK
+00:00:00>ZOOM 40
+
+# TMA Area Definition (Gimhae Terminal Control Area)
+# FL225 / 1000 ft AGL
+00:00:00>POLY RKPK_TMA,35.183611,128.497778,35.480306,128.558889,35.503333,129.025556,35.419722,129.082222,34.183611,128.865556,34.183611,128.497778
+
+# Load Fix Definitions
+00:00:00>PCALL scenario/RKPK/RKPK_FIXES.scn
+
+# Start Data Logging
+00:00:00>SKYLOG ON,1.0
+
+# ==============================================================================
+# Airport Information
+# ==============================================================================
+00:00:01>ECHO ==========================================
+00:00:01>ECHO Gimhae International Airport (RKPK)
+00:00:01>ECHO ==========================================
+00:00:01>ECHO Location: 35 10 50N 128 56 17E
+00:00:01>ECHO 
+00:00:01>ECHO Runway 18R/36L: 3200m x 60m (Main)
+00:00:01>ECHO Runway 18L/36R: 2743m x 46m 
+00:00:01>ECHO 
+00:00:01>ECHO TMA: FL225 - 1000ft AGL
+00:00:01>ECHO Separation: 5NM / 1000ft
+00:00:01>ECHO ==========================================
+
+# ==============================================================================
+# End of Base Scenario
+# ==============================================================================
